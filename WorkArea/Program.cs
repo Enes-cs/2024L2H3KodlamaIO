@@ -40,7 +40,7 @@ namespace WorkArea
             categoryManager.GetAll();
             categoryManager.Update(1, "Yazılım");
             categoryManager.GetByCategoryId(1);
-            categoryManager.Delete(1);
+            categoryManager.Delete(2);
             categoryManager.GetAll();
             Console.WriteLine("----------CategoryService Test---------------Bitti-----------------------------------");
             #endregion
